@@ -1,0 +1,17 @@
+name: my_cli
+
+pull_request:
+    paths:
+      - ".github/workflows/main.yaml"
+      - "lib/**"
+      - "test/**"
+      - "pubspec.yaml"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/main.yaml"
+      - "lib/**"
+      - "test/**"
+      - "pubspec.yaml"
+
