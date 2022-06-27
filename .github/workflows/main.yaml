@@ -7,6 +7,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
-      env:
-      run: |
-        echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
